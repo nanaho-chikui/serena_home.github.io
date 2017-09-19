@@ -1,0 +1,1062 @@
+body{
+   background-color: black;
+   float:left;
+   
+         color: white;
+         font-family: 'Alegreya Sans SC', sans-serif;
+
+         margin: 0;
+         padding: 0;
+
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+
+  /* 画像を常に上に配置 */
+     background-position: top;
+  /* 画像をタイル状に繰り返し表示しない */
+     background-repeat: no-repeat;
+  /* コンテンツの高さが画像の高さより大きい時、動かないように固定 */
+     background-attachment: fixed;
+  /* 表示するコンテナの大きさに基づいて、背景画像を調整 */
+     background-size: cover;
+  /* 背景画像が読み込まれる前に表示される背景のカラー */
+  background-color: black;
+    
+  
+     position: relative;
+}
+
+
+.background{
+    height:100vh;
+     width:100vw;
+    
+   
+
+
+background-size: cover;
+  background-position: center;
+
+  /* 画像を常に上に配置 */
+     background-position: top;
+  /* 画像をタイル状に繰り返し表示しない */
+     background-repeat: no-repeat;
+  /* コンテンツの高さが画像の高さより大きい時、動かないように固定 */
+     background-attachment: fixed;
+  /* 表示するコンテナの大きさに基づいて、背景画像を調整 */
+     background-size: cover;
+  /* 背景画像が読み込まれる前に表示される背景のカラー */
+  background-color: black;
+    
+  
+     position: relative;
+
+     
+     
+}
+
+
+
+h1 {
+    position: relative;
+    display: inline-block;
+    font-weight: 100;
+
+      /*トランジションプロパティ */
+transition:all 0.5s;
+ 
+  }
+
+  
+  h1::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    -webkit-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    transform: scaleX(0);
+    background-color: white;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+
+    
+  }
+
+  h1:hover::after {
+    -webkit-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    transform: scaleX(1);
+    
+  }
+
+  h1:hover{
+      /* 拡大 */
+-webkit-transform: scale(1.3);
+-ms-transform: scale(1.3);
+transform: scale(1.1);
+
+  /*トランジションプロパティ */
+transition:all 0.3s;
+  }
+  
+  .t_con {
+    position: relative;
+    display: inline-block;
+    
+ 
+  }
+  .t_con::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    -webkit-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    transform: scaleX(0);
+    background-color: gray;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+  }
+  .t_con:hover::after {
+    -webkit-transform: scaleX(2);
+    -ms-transform: scaleX(2);
+    transform: scaleX(2);
+  }
+
+
+
+
+/*.transparent{
+    
+    height: 100%;
+background-color: rgba(0,0,0,0.5);
+}
+*/
+
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 3;
+
+    /*トランジションプロパティ */
+transition:all 0.5s;
+  
+}
+
+p:hover{
+/* 拡大 */
+-webkit-transform: scale(1.3);
+-ms-transform: scale(1.3);
+transform: scale(1.1);
+
+  /*トランジションプロパティ */
+transition:all 0.2s;
+}
+
+.t_con{
+    font-size: 90px;
+    
+  justify-content: center; /* 横方向中央揃え */
+}
+
+.nnn{
+
+    left: 40px;
+        font-size: 100px;
+    align-items: center; /* 縦方向中央揃え */
+  justify-content: center; /* 横方向中央揃え */
+
+  /*トランジションプロパティ */
+transition:all 0.5s;
+}
+
+.nnn:hover{
+/* 拡大 */
+-webkit-transform: scale(1.3);
+-ms-transform: scale(1.3);
+transform: scale(1.1);
+
+/*トランジションプロパティ */
+transition:all 0.3s;
+}
+
+
+h1{
+    font-size: 70px;
+     align-items: center; /* 縦方向中央揃え */
+  justify-content: center; /* 横方向中央揃え */
+}
+
+h2{
+    font-size: 40px;
+    float:left;
+}
+
+
+label{
+      /*トランジションプロパティ */
+      transition:all 0. 5s;
+}
+
+label:hover{
+
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.1);
+    
+      /*トランジションプロパティ */
+    transition:all 0.3s;
+
+}
+
+#u_mail{
+    color: red;
+}
+
+
+
+
+
+
+
+.xCONTACT{
+       align-items: center; /* 縦方向中央揃え */
+  justify-content: center; /* 横方向中央揃え */
+}
+
+.con{
+        font-size: 40px;
+}
+
+.t_con{
+    margin-top: -60px;
+position: relative;
+display: inline-block;
+padding: 0 530px;
+}
+
+
+
+
+.con_ctl{
+    margin-top:  -90px;
+}
+
+
+
+
+.con_tw_ch {
+  display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+
+    padding-left: 200px;
+}
+
+
+.ab {
+color: white;/*文字色*/
+padding: 50px 0;/*上下の余白*/
+border-top: solid 3px white;/*上線*/
+border-bottom: solid 3px white;/*下線*/
+}
+
+
+
+/*中の要素(テキスト)に応じて、それぞれ自動で幅が決まりますが、display:tableを指定している.navにtable-layout:fixedを指定すると、固定レイアウトになり、.nav__itemに幅の指定がない場合、均等に幅が配置されます。*/
+.con_tw_all {
+    display: table;
+    height: 500px;
+   
+    padding: 10px;
+    
+
+}
+.co_tw {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.co_tw + .co_tw {
+    border-left: 1px solid #CCC;
+}
+.co_tw {
+    display: block;
+    padding: 15px 0;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+.con_ch_all {
+    
+    display: table;
+    width: 500px;
+    
+}
+.co_ch_all {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.co_ch_all + .co_ch_all {
+    border-left: 1px solid #CCC;
+}
+.co_ch_all {
+    display: block;
+    padding: 15px 0;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+#nav{
+    
+    padding: 0px;	
+} 
+
+
+#nav ul{
+    padding: 0px; 	
+    margin: 0px;
+} 
+
+#navv ul li {
+    display: inline; 	
+    margin-right: 20em;
+} 
+
+
+#nav ul li {
+    display: inline; 	
+    margin-right: 10em;
+} 
+
+
+#nav ul li a { 
+    font-family: "Trebuchet MS", sans-serif; 
+    text-decoration: none;
+    color: #fff; 	 
+} 
+
+
+
+
+
+.write{
+    
+  position: absolute;
+  top:0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 600px;
+  height: 50px;
+  margin: auto;
+  font-size: 20px;
+
+float:left;
+
+     position: relative;
+     
+}
+
+
+
+
+
+/*_________________________ボックスエリア____________________________*/
+
+.scroll-area {
+    
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+  -webkit-scroll-behavior: smooth;
+  scroll-behavior: smooth;
+  -webkit-scroll-snap-type: mandatory;
+  scroll-snap-type: mandatory;
+  -webkit-scroll-snap-points-y: repeat(100%);
+  scroll-snap-points-y: repeat(100%);
+
+  
+}
+
+.box {
+
+    
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  font-size: 100px;
+  display: flex;
+  align-items: center; /* 縦方向中央揃え */
+  justify-content: center; /* 横方向中央揃え */
+  flex-direction: column;
+
+}
+
+
+
+
+
+
+
+.back_bio{
+
+   
+  
+
+
+    /* 背景画像の透過用css */
+    background-image:url(http://gahag.net/img/201512/01s/gahag-0031393703-1.jpg);
+
+    
+
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+
+    font-size: 40px;
+    
+
+
+}
+
+.back_ABOUT{
+
+   
+
+    /* 背景画像の透過用css */
+    background-image:url(http://free-photos-ls02.gatag.net/images/lgf01a201402022200.jpg); 
+
+
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+
+}
+
+.back_WORK{
+
+
+    /* 背景画像の透過用css */
+    background-image:url(http://01.gatag.net/img/201505/13l/gatag-00004104.jpg); 
+
+
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+
+
+}
+
+.back_COMMENT{
+
+    /* 背景画像の透過用css */
+background-image: url(http://01.gatag.net/img/201506/17l/gatag-00007485.jpg);
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+background-color:lightgray;
+background-color: rgba(0,0,0,0.5)
+
+
+
+}
+
+.back_CONTACT{
+
+    
+
+   padding-top: 200px;
+
+   background-size: 100%;
+   width: 100vw;
+   
+
+    /* 背景画像の透過用css */
+    background-image:url(http://gahag.net/img/201607/04s/gahag-0103074658-1.jpg); 
+
+
+
+
+
+  background-repeat: no-repeat;
+
+
+	position: relative;
+
+
+
+
+}
+
+.back_CONTACT::before{
+	/* 透過した黒を重ねる */
+	background-color: rgba(255,255,255,0.5);
+	/* どの範囲に重ねるかを指定 */
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+    content: '';
+    margin-bottom:28px;
+}
+
+
+
+.back_con_tw_all{
+    
+    /*background-color: rgba(0,0,0,0.5)*/
+    font-size: 100px;
+  display: flex;
+  align-items: center; /* 縦方向中央揃え */
+  float: left;
+  padding-left: 30px;
+  flex-direction: column;
+}
+
+.twitter-follow-button{
+    padding-top: 54px;
+    padding-left: 15px;
+}
+
+
+.back_mail{
+
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  font-size: 100px;
+  display: flex;
+  align-items: center; /* 縦方向中央揃え */
+  justify-content: center; /* 横方向中央揃え */
+  flex-direction: column;
+
+
+    /* 背景画像の透過用css */
+    background-image:url(file:///Users/nanaho/Downloads/flower-back0784.jpg); 
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+
+main_form{
+    font-size: 30px;
+}
+
+
+
+
+
+/*_______________________テキスト_______________________*/
+
+
+.text{
+     width: 800px;
+    height: 500px;
+
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  color: white;
+  font-size: 15px;
+  display: flex;
+  align-items: center; /* 縦方向中央揃え */
+  justify-content: center; /* 横方向中央揃え */
+  flex-direction: column;
+
+font-size: 15px;
+background-color:lightgray;
+background-color: rgba(0,0,0,0.3);
+
+/*トランジションプロパティ */
+transition:all 0.5s;
+
+}
+
+
+.text:hover{
+    
+        background-color: rgba(0,0,0,0.5);
+    
+        /*トランジションプロパティ */
+        
+        transition:all 0.5s;
+    }
+
+
+.bio{
+font-size: 15px;
+padding:50px;
+background-color:lightgray;
+background-color: rgba(0,0,0,0.3)
+
+}
+
+.bio:hover{
+    
+        background-color: rgba(0,0,0,0.5);
+    
+        /*トランジションプロパティ */
+        
+        transition:all 0.5s;
+    }
+
+
+.CONTACT{
+
+    margin:-20px;
+
+   background-size: 100%;
+   width: 100vw;
+
+color: gray;
+
+
+position: absolute;
+  width: 100%;
+  text-align: center;
+
+
+    /*
+    width: 100vw;
+    height: 100vh;
+
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+
+  display: flex;
+  align-items: center; /* 縦方向中央揃え */
+  /*  
+  justify-content: center; /* 横方向中央揃え */
+  /*
+  flex-direction: column;
+
+font-size: 15px;
+
+*/
+
+
+}
+
+.Tw{
+    color: gray;
+}
+
+
+/*--------------------------透過--------------------------------------------*/
+
+
+.xbio{
+    
+
+
+
+
+      font-size: 15px;
+    
+       width: 100vw;
+    height: 100vh;
+
+   padding:0px;
+
+  display: flex;
+  align-items: center; /* 縦方向中央揃え */
+  justify-content: center; /* 横方向中央揃え */
+  flex-direction: column;
+
+
+background-color:lightgray;
+background-color: rgba(0,0,100,0.8)
+
+}
+
+
+
+/*
+.bio{
+    font-size: 40px;
+    padding:50px;
+background-color:lightgray;
+background-color: rgba(0,0,0,0.3)
+}
+
+.ABOUT{
+font-size: 15px;
+padding:50px;
+background-color:lightgray;
+background-color: rgba(0,0,0,0.3)
+}
+
+.WORK{
+font-size: 15px;
+padding:50px;
+background-color:lightgray;
+background-color: rgba(0,0,0,0.3)
+}
+
+.COMMENT{
+font-size: 15px;
+padding:50px;
+background-color:lightgray;
+background-color: rgba(0,0,0,0.3)
+}
+
+.CONTACT{
+font-size: 15px;
+padding:50px;
+background-color:lightgray;
+background-color: rgba(0,0,0,0.3)
+}
+*/
+
+
+
+/*__________________________サイドバー____________________________________*/
+
+.sidebar {
+    position: relative;
+    left: -110px;
+    width: 200px;
+    height: auto;
+    background-color: rgba(255,255,255, 0.3);
+    padding:20px;
+}
+
+.button a{
+    position: absolute;
+    top: 70px;
+    left: 240px;
+    display: block;
+    width: 30px;
+    height: 70px;
+    color: #FFF;
+    background-color: rgba(50,100,10,0.5);
+    text-align: center;
+    text-decoration: none;
+    line-height: 70px;
+}
+
+.open:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    width: 10px;
+    height: 10px;
+    border-top: 1px solid #CCC;
+    border-right: 1px solid #CCC;
+    transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-tansform: rotate(45deg);
+}
+
+.close:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    width: 10px;
+    height: 10px;
+    border-top: 1px solid #CCC;
+    border-left: 1px solid #CCC;
+    transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-tansform: rotate(-45deg);
+}
+
+.side_bio{
+    font-size: 40px;
+}
+
+.side_text{
+    font-size: 15px;
+padding:30px;
+background-color:lightgray;
+background-color: rgba(0,0,0,0.5)
+}
+
+
+/*
+.side_ABOUT{
+font-size: 15px;
+padding:10px;
+background-color:lightgray;
+background-color: rgba(0,0,0,0.3)
+}
+
+.side_WORK{
+font-size: 15px;
+padding:10px;
+background-color:lightgray;
+background-color: rgba(0,0,0,0.3)
+}
+
+.side_COMMENT{
+font-size: 15px;
+padding:10px;
+background-color:lightgray;
+background-color: rgba(0,0,0,0.3)
+}
+
+.side_CONTACT{
+font-size: 15px;
+padding:10px;
+background-color:lightgray;
+background-color: rgba(0,0,0,0.3)
+}
+*/
+
+
+
+
+form {
+    /* フォームをページの中央に置く */
+    margin: 0 auto;
+    margin-top:-30px;
+    width: 400px;
+    /* フォームの範囲がわかるようにする */
+    padding-top: 80px;
+    padding-bottom: 15px;
+    padding-left:80px;
+    padding-right:115px;
+
+
+    border: 1px solid #CCC;
+    border-radius: 1em;
+
+     /*トランジションプロパティ */
+     transition:all 0.3s;
+}
+
+form div + div {
+    margin-top: 1em;
+}
+
+form:hover{
+    background-color:rgba(51,51,51,0.4);
+    /*トランジションプロパティ */
+    transition:all 0.4s;
+
+    /* 拡大 */
+-webkit-transform: scale(1.3);
+-ms-transform: scale(1.3);
+transform: scale(1.1);
+
+/*トランジションプロパティ */
+transition:all 0.3s;
+}
+
+
+label {
+    /* すべてのラベルを同じサイズにして、きちんと揃える */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input, textarea {
+    /* すべてのテキストフィールドのフォント設定を一致させる
+       デフォルトで、textarea は等幅フォントが設定されている */
+    font: 1em sans-serif;
+
+    /* すべてのテキストフィールドを同じサイズにする */
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    /* テキストフィールドのボーダーの外見を同一にする */
+    border: 1px solid #999;
+    background-color:rgba(255,255,255,0.5);
+    color: white;
+    overflow : hidden;
+    outline : none;
+
+     /*トランジションプロパティ */
+     transition:all 0.5s;
+}
+
+
+input:hover, textarea:hover {
+  /* テキストフィールドのボーダーの外見を同一にする */
+    border: 1px solid #999;
+    background-color:rgba(0,0,0,0.1);
+        /*トランジションプロパティ */
+        transition:all 0.3s;
+}
+
+input:focus, textarea:focus {
+    /* アクティブな要素を少し強調する */
+    border-color: #000;
+}
+
+textarea {
+    /* 複数行のテキストフィールドをラベルにきちんと揃える */
+    vertical-align: top;
+
+    /* テキスト入力に十分な領域を与える */
+    height: 5em;
+
+    /* ユーザが textarea を垂直方向にリサイズできるようにする
+       これが動作しないブラウザもある */
+    resize: vertical;
+}
+
+.send_button {
+    /* ボタンを他のテキストフィールドと同じ場所に置く */
+    padding-left: 160px; /* label 要素と同じサイズ */
+
+
+
+
+
+}
+
+
+#s_button {
+        /* このマージンは、ラベルとテキストフィールドの間のスペースと
+       おおよそ同じスペースを表す */
+    margin-left: .5em;
+
+
+ 
+
+
+    /* 文字サイズを1.4emに指定 */
+font-size: 1.4em;
+
+/* 文字の太さをboldに指定 */
+    font-weight: bold;
+
+
+/* 縦方向に10px、 横方向に30pxの余白を指定 */
+    padding: 10px 30px;
+
+
+   /* 文字色を白色に指定 */
+    color: #fff;
+
+       /* 背景色指定 */
+    background-color: rgba(51,51,51,0.2);
+           
+      /* ボーダーをなくす */
+     
+      border: 1px solid #CCC;
+      border-radius: 1em;
+
+/*トランジションプロパティ */
+transition:all 0.5s;
+
+
+
+}
+
+
+/*オンマウス*/
+#s_button:hover{
+    background-color:rgba(204,0,0,0.5);
+  
+
+/* 拡大 */
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.1);
+
+    /*トランジションプロパティ */
+    transition:all 0.3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    font-size: 3px;
+    text-align: center;
+  
+}
+
+
+
+
+/*
+
+button {
+    padding: 5px 20px;
+    background-color: #1B95E0;
+    border-color: #2E6DA4;
+    border-style: none;
+    color: #FDFFFF;
+
+}
+
+
+button:hover{
+background-color:#0C7ABF;
+}
+
+
+input {
+    height: 20px;
+}
+
+*/
+
+
