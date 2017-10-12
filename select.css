@@ -1,6 +1,6 @@
 body{
     background-color: black;
-    background-image: url(https://www.pakutaso.com/shared/img/thumb/TSU86_hunnwari_TP_V.jpg);
+    background-image: url(https://www.pakutaso.com/shared/img/thumb/HIRO95_yuubaenokage_TP_V.jpg);
     color: rgba(0,0,0,0.5);
     position: absolute;
 
@@ -16,12 +16,7 @@ body{
     background-position: 50% 50%;            /* 背景画像の位置は画面中央 */
     background-attachment:fixed;             /* 背景画像を固定する */
     background-size: cover;
-  
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  
+    
   
     height: 100%;
   
@@ -30,13 +25,20 @@ body{
 
     padding: 30px;
 
+    border-radius: 20px;
+
+    text-align: center;
+
 
 }
 
 .b_s{
+    
     width: 100%;  
    
     padding:10px;
+
+    padding-left: 10px;
 }
 
 a{
@@ -47,7 +49,6 @@ a{
     text-decoration: none;
 
 }
-
 
 
 
@@ -113,3 +114,10 @@ transition:all 0.3s;
 ul li{
     display: inline;
 }
+
+.yokoso{
+    padding-left: 10px;
+    font-size: 60px;
+    color: white;
+}
+
