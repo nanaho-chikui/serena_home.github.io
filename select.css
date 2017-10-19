@@ -85,7 +85,8 @@ input{
     
     /* 縦方向に10px、 横方向に30pxの余白を指定 */
         padding: 10px 30px;
-    
+        height:40px;
+      
     
        /* 文字色を白色に指定 */
         color: rgba(255,255,255,0.8);
