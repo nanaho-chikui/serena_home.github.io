@@ -1,1 +1,1 @@
-# serena_home.github.io
+This is Serena Project's web site.
